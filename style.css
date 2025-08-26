@@ -1,0 +1,31 @@
+body {
+    background-image: url('image.png');
+    background-repeat: repeat;
+    background-size: 50px 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+img {
+    width: 70px;
+    height: 700px;
+    position: relative;
+    display: block;
+}
+
+.text {
+    position: absolute;
+    top: 0px;
+    align-items: end;
+}
+
+button:hover,
+img:hover,
+p:hover,
+h1:hover,
+h3:hover,
+ul:hover {
+    display: none;
+    font-size: 50;
+}
